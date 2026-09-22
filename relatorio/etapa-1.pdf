@@ -1,0 +1,76 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2306 >>
+stream
+BT
+/F1 11 Tf
+50 800 Td
+(Projeto Aplicado I ? Etapa 1) Tj
+0 -14 Td () Tj
+0 -14 Td (Titulo do trabalho) Tj
+0 -14 Td (  Variacao dos precos de combustiveis no Brasil: uma analise exploratoria com dados da ANP) Tj
+0 -14 Td () Tj
+0 -14 Td (Membro) Tj
+0 -14 Td (  Adson Vinicius Galdino Passos. Projeto desenvolvido individualmente.) Tj
+0 -14 Td () Tj
+0 -14 Td (Contexto do estudo) Tj
+0 -14 Td (  Os precos dos combustiveis influenciam o custo de transporte, entregas e outras atividades) Tj
+0 -14 Td (  economicas. Este projeto analisa como os precos se comportaram no Brasil entre 2019 e 2024) Tj
+0 -14 Td (  usando dados publicos da ANP.) Tj
+0 -14 Td () Tj
+0 -14 Td (Pergunta principal) Tj
+0 -14 Td (  Como os precos de combustiveis variaram entre as regioes brasileiras e ao longo do periodo) Tj
+0 -14 Td (  analisado?) Tj
+0 -14 Td () Tj
+0 -14 Td (Referencia de aquisicao do dataset) Tj
+0 -14 Td (  Base: Serie Historica de Precos de Combustiveis e de GLP \(ANP\). Links: gov.br/anp/.../dados-) Tj
+0 -14 Td (  abertos/arquivos/shpc e gov.br/anp/.../precos-revenda-e-de-distribuicao-combustiveis.) Tj
+0 -14 Td () Tj
+0 -14 Td (Recorte e limitacoes) Tj
+0 -14 Td (  Recorte previsto: janeiro de 2019 a dezembro de 2024, com registros semanais de precos de) Tj
+0 -14 Td (  revenda. A base e amostral e nao representa todos os postos e municipios brasileiros.) Tj
+0 -14 Td () Tj
+0 -14 Td (Origem dos dados) Tj
+0 -14 Td (  Dados gerados no Levantamento de Precos de Combustiveis da ANP, com coleta semanal em postos) Tj
+0 -14 Td (  selecionados e uso de app, GPS e registros fotograficos.) Tj
+0 -14 Td () Tj
+0 -14 Td (Descricao do dataset) Tj
+0 -14 Td (  Cada linha representa uma observacao de preco para um produto em um posto e semana especifica.) Tj
+0 -14 Td (  Campos principais: semana, regiao, estado, municipio, endereco, produto, bandeira, preco de) Tj
+0 -14 Td (  venda, preco de compra e unidade.) Tj
+0 -14 Td () Tj
+0 -14 Td (Produtos de foco inicial) Tj
+0 -14 Td (  Gasolina comum, etanol hidratado e diesel S-10.) Tj
+0 -14 Td () Tj
+0 -14 Td (Objetivos das proximas etapas) Tj
+0 -14 Td (  Etapa 2: limpeza, organizacao e analise exploratoria com Python. Etapa 3: apresentacao dos) Tj
+0 -14 Td (  principais resultados. Etapa 4: relatorio final, repositorio e video de apresentacao.) Tj
+0 -14 Td () Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2669
+%%EOF
