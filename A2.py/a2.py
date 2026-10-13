@@ -77,7 +77,15 @@ dados["Data da Coleta"] = pd.to_datetime(
 )
 
 
-# Seleciona os combustíveis do projeto
+
+# Verifica as exclusões em cada etapa do tratamento
+
+total_original = len(dados)
+
+print("\nProdutos encontrados na base original:")
+print(dados["Produto"].value_counts().head(20))
+
+# 1. Seleciona os combustíveis do projeto
 combustiveis = [
     "GASOLINA",
     "ETANOL",
@@ -88,17 +96,43 @@ dados = dados[
     dados["Produto"].isin(combustiveis)
 ].copy()
 
-# Remove valores inválidos
+total_combustiveis = len(dados)
+
+# 2. Remove registros sem preço ou data válidos
 dados = dados.dropna(
     subset=["Valor de Venda", "Data da Coleta"]
 )
 
+total_sem_nulos = len(dados)
+
+# 3. Remove preços iguais ou inferiores a zero
 dados = dados[dados["Valor de Venda"] > 0].copy()
 
-# Confere se as datas são de 2024
+total_preco_valido = len(dados)
+
+# 4. Mantém somente registros de 2024
 dados = dados[
     dados["Data da Coleta"].dt.year == 2024
 ].copy()
+
+total_2024 = len(dados)
+
+if dados.empty:
+    raise ValueError(
+        "Nenhum registro válido foi encontrado."
+    )
+
+print("\nResumo do tratamento:")
+print(f"Base original: {total_original}")
+print(f"Após filtro de combustíveis: {total_combustiveis}")
+print(f"Após remover preço/data inválidos: {total_sem_nulos}")
+print(f"Após filtro de preços positivos: {total_preco_valido}")
+print(f"Após filtro de 2024: {total_2024}")
+
+print("\nPeríodo encontrado:")
+print("Data inicial:", dados["Data da Coleta"].min())
+print("Data final:", dados["Data da Coleta"].max())
+
 
 if dados.empty:
     raise ValueError(
