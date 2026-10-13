@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c60513e-bc42-45bd-b7db-d0802a3dc304" name="Changes" comment="Primeiro commit">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Projeto_Aplicado I.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/anp_combustiveis_2024_1_semestre.zip" beforeDir="false" afterPath="$PROJECT_DIR$/A2.py/dados/ca-2024-01.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/anp_combustiveis_2024_2_semestre.zip" beforeDir="false" afterPath="$PROJECT_DIR$/A2.py/dados/ca-2024-02.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/bruto/Preços semestrais - AUTOMOTIVOS_2024.01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/A2.py/dados/bruto/Preços semestrais - AUTOMOTIVOS_2024.01.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/bruto/Preços semestrais - AUTOMOTIVOS_2024.02.csv" beforeDir="false" afterPath="$PROJECT_DIR$/A2.py/dados/bruto/Preços semestrais - AUTOMOTIVOS_2024.02.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/evolucao_mensal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/evolucao_semanal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficos/preco_medio_regiao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto_aplicado_1_etapa_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relatorio/dados_tratados.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relatorio/estatisticas_combustiveis.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relatorio/preco_medio_estado.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relatorio/preco_medio_mensal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relatorio/preco_medio_municipio.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relatorio/preco_medio_regiao.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relatorio/preco_medio_semanal.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.a2.executor": "Run",
+    "git-widget-placeholder": "Rebasing main"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit" />
+  </component>
+</project>
