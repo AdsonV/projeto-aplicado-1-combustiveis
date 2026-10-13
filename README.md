@@ -22,10 +22,11 @@ Os dados representam preços coletados semanalmente em postos selecionados pela 
 ## Organização do repositório
 
 ```text
-dados/        # arquivos originais e dados tratados
+dados/
+└── bruto/    # arquivos originais
 notebooks/    # análises em Python
 graficos/     # gráficos gerados na análise
-relatorio/    # entregas escritas do projeto
+relatorios/   # entregas escritas do projeto
 apresentacao/ # slides e materiais da apresentação final
 ```
 
