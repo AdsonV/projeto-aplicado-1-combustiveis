@@ -121,9 +121,12 @@ def main():
         fora = (grupo["Preco"] < q1 - 1.5 * iqr) | (grupo["Preco"] > q3 + 1.5 * iqr)
         return pd.Series({"Q1": q1, "Q3": q3, "Possiveis_extremos": int(fora.sum())})
 
-    extremos = dados.groupby("Produto").apply(
-        resumir_extremos, include_groups=False
-    ).round(2)
+    linhas_extremos = []
+    for produto, grupo in dados.groupby("Produto"):
+        linha = resumir_extremos(grupo)
+        linha["Produto"] = produto
+        linhas_extremos.append(linha)
+    extremos = pd.DataFrame(linhas_extremos).set_index("Produto").round(2)
     extremos.to_csv(PASTA_RESULTADOS / "diagnostico_extremos_iqr.csv", encoding="utf-8-sig")
 
     dados.to_csv(
